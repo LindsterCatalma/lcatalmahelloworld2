@@ -1,0 +1,7 @@
+---
+applications:
+ - name: catalma-test
+   random-route: true
+   path: target/lcatalmahelloworld-0.0.1-SNAPSHOT.war
+   memory: 256M
+   instances: 1
